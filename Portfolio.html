@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header, section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #00ffd5;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffd5;
+    }
+    .project {
+      background: #1a1a1a;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .contact a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      margin-top: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1rem;
+      background: #1c7667;
+      color: #0e0e0e;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #00bfa6;
+    }
+    .banner-img {
+      width: 30%;
+      border-radius: 10px;
+      
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>  <header>
+    <img src="banner.jpeg" alt="Banner" class="banner-img">
+    <h1>Hi, I'm Agada Joseph Folorunso</h1>
+    <p>Web Developer | Graphic Designer | Penetration Tester</p>
+  </header>  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a multi-skilled professional with experience in full-stack web development,
+      graphic design, and penetration testing. I blend creativity with technical skills
+      to build efficient, aesthetic, and secure solutions.
+    </p>
+  </section>  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Short description of what this project does, tech used, and your role.</p>
+      <a class="btn" href="#" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Short description of what this project does, tech used, and your role.</p>
+      <a class="btn" href="#" target="_blank">View Project</a>
+    </div>
+  </section>  <section id="resume">
+    <h2>Resume / CV</h2>
+    <p>You can download my resume below:</p>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
+  </section>  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="https://gmail.com" target="_blank">teknomads70@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Degreat01" target="_blank">github.com/Degreat01</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/Agada Joseph" target="_blank">linkedin.com/in/Agada Joseph</a></p>
+    <p>WhatsApp: <a href="https://WhatsApp.com" target="_blank">whatsApp.com/09151845317</a></p>
+  </section>  <footer>
+    <p>© 2025 Teknomads. All rights reserved.</p>
+  </footer>
+</body>
+</html>
